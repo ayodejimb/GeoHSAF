@@ -36,3 +36,6 @@ In the `multi_class_classification` folder, run the file `tr_classification_data
 ## Ablation Study Files
 Files are available in the `ablation_study` folder. 
 
+## License
+This code and models are available for non-commercial scientific research purposes as defined in the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). By downloading and using this code you agree to the terms in the [LICENSE](LICENSE). Third-party codes are subject to their respective licenses.
+
