@@ -17,9 +17,10 @@ We use the FSL toolbox for the hippocampus segmentation. See procedures [here](h
 ## Packages and Dependencies
 - Create a separate environment and install the packages and dependencies in the `environment.yml` file using conda - `conda env create -f environment.yml`. For pip, first create an enviroment using Python, activate the enviroment and run `pip install -r requirements.txt`. Note that with pip, some of the dependencies and packages may not be installed and you have to install them yourself. 
 
-## Removal of Rigid Transformation, and Surface Matching
+## Removal of Rigid Transformations, and Surface Matching
 All files for this are in the `alignment_and_matching` folder
-**⚡(1)** Run `from_vtk_to_off.py` to pass from .vtks to .off  **⚡(2)** Run `normalization.py` and `alignment.py` accordingly to remove rigid transformations and then **⚡(3)** `non_rigid_matching.py` and `extraction_of_matches_code.py` accordingly for surface matching. For the OASIS dataset, run **⚡(4)** the file `rename_files_with_timepoints.py` to rename the files to include months of the scans in the file names. 
+**⚡(1)** Run `from_vtk_to_off.py` to pass from .vtks to .off  **⚡(2)** Run `normalization.py` and `alignment.py` accordingly to remove rigid transformations and then **⚡(3)** `non_rigid_matching.py` and `extraction_of_matches_code.py` accordingly for surface matching. The DGCNN folder needed for running the `non_rigid_matching.py` can be downloaded from [here](https://drive.google.com/file/d/1nlFtehis340g-vOrKmXxz1KV1Uu8Z253/view?usp=drive_link) 
+For the OASIS dataset, run **⚡(4)** the file `rename_files_with_timepoints.py` to rename the files to include months of the scans in the file names. 
 
 ## Mean and Tangent Projections
 **⚡(1)** Run the file `Subj_wise_strat_splitting_five_folds.py` for subject-wise five fold split. Then in the `mean_and_tangent_projections` folder, run **⚡(a)** the file `Karcher_mean_and_tangent_proj_for_train.py` to compute the mean on train set and tangent projection for train set. And then run **⚡(b)** `Tangent_proj_for_test.py` for tangent projection for test set. 
