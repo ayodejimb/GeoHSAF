@@ -20,6 +20,7 @@ We use the FSL toolbox for the hippocampus segmentation. See procedures [here](h
 ## Removal of Rigid Transformations, and Surface Matching
 All files for this are in the `alignment_and_matching` folder
 **⚡(1)** Run `from_vtk_to_off.py` to pass from .vtks to .off  **⚡(2)** Run `normalization.py` and `alignment.py` accordingly to remove rigid transformations and then **⚡(3)** `non_rigid_matching.py` and `extraction_of_matches_code.py` accordingly for surface matching. The DGCNN folder needed for running the `non_rigid_matching.py` can be downloaded from [here](https://drive.google.com/file/d/1nlFtehis340g-vOrKmXxz1KV1Uu8Z253/view?usp=drive_link) 
+
 For the OASIS dataset, run **⚡(4)** the file `rename_files_with_timepoints.py` to rename the files to include months of the scans in the file names. 
 
 ## Mean and Tangent Projections
