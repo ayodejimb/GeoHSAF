@@ -37,6 +37,19 @@ In the `multi_class_classification` folder, run the file `tr_classification_data
 ## Ablation Study Files
 Files are available in the `ablation_study` folder. 
 
+## How to Cite
+- If any part of this work has been useful to you, do not forget to cite. An example bibtex citation is:
+```bibtex
+@InProceedings{Olaoluwa_2026_WACV,
+    author    = {Olaoluwa, Mubarak and Loukil, Heni and Sbei, Arafet and Drira, Hassen},
+    title     = {GeoHSAF: Geometric Hippocampus Shape Analysis Framework for Longitudinal Alzheimer's Disease Classification},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {2156-2167}
+}
+```
+
 ## License
 This code and models are available for non-commercial scientific research purposes as defined in the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). By downloading and using this code you agree to the terms in the [LICENSE](LICENSE). Third-party codes are subject to their respective licenses.
 
